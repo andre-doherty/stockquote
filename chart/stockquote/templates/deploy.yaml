@@ -53,7 +53,7 @@ spec:
   type: NodePort
   ports:
     - port: 9080
-      nodePort: 31002
+      nodePort: 31914
   selector:
     app: stockquote
 ---   
