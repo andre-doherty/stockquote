@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive>
-    <dir sourceOnDisk="/root/app/mc-target/classes" targetInArchive="/WEB-INF/classes"/>
-    <file sourceOnDisk="/root/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar" targetInArchive="/WEB-INF/lib/jedis-2.9.0.jar"/>
-    <file sourceOnDisk="/root/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar" targetInArchive="/WEB-INF/lib/commons-pool2-2.4.2.jar"/>
-    <file sourceOnDisk="/shared-workspace/stockquote/mc-target/liberty-maven/resources/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
-</archive>
