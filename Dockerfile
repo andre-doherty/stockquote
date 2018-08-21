@@ -15,3 +15,8 @@
 FROM websphere-liberty:microProfile
 COPY server.xml /config/server.xml
 COPY target/stockquote-1.0-SNAPSHOT.war /config/apps/StockQuote.war
+COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-prometheus.war /config/dropins/javametrics-prometheus.war
+COPY target/liberty/wlp/usr/servers/defaultServer/resources/javametrics-agent.jar /config/resources/javametrics-agent.jar
+COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-rest.war /config/dropins/javametrics-rest.war
+COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-dash.war /config/dropins/javametrics-dash.war
+COPY src/main/liberty/config/jvm.options  /config/jvm.options
