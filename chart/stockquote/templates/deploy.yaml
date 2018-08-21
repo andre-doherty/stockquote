@@ -54,7 +54,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 9080
+    - port: 9443
   selector:
     app: stockquote
 ---   
