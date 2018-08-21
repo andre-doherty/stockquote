@@ -25,7 +25,7 @@
 
   <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
       id="defaultHttpEndpoint" host="*" />
-
+  <quickStartSecurity userName="admin" userPassword="admin"/>
 
 
 </server>
