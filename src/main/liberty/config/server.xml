@@ -11,7 +11,7 @@
         <feature>appSecurity-2.0</feature>
         <feature>jsonp-1.0</feature>
         <feature>mpConfig-1.1</feature>
-        <feature>jaxrs-2.01</feature>
+        <feature>jaxrs-2.0</feature>
         <feature>el-3.0</feature>
         <feature>jaxrsClient-2.0</feature>
         <feature>concurrent-1.0</feature>
