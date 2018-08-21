@@ -19,4 +19,4 @@ COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-prometheus
 COPY target/liberty/wlp/usr/servers/defaultServer/resources/javametrics-agent.jar /config/resources/javametrics-agent.jar
 COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-rest.war /config/dropins/javametrics-rest.war
 COPY target/liberty/wlp/usr/servers/defaultServer/dropins/javametrics-dash.war /config/dropins/javametrics-dash.war
-COPY src/main/liberty/config/jvm.options  /config/jvm.options
+COPY src/main/liberty/config/jvmbx.options  /config/jvm.options
