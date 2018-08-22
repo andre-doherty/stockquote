@@ -54,7 +54,10 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 9443
+  - name: secure
+    nodePort: 30938
+    protocol: TCP
+    targetPort: 9443
   selector:
     app: stockquote
 ---   
